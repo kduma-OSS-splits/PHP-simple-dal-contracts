@@ -1,0 +1,19 @@
+{
+    "name": "kduma/simple-dal-contracts",
+    "description": "Simple DAL - Contracts and interfaces",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "KDuma\\SimpleDAL\\Contracts\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
